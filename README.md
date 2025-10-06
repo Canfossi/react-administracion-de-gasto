@@ -1,16 +1,47 @@
-# React + Vite
+# 🧾 App de Administración de Gastos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web desarrollada con **React JS** para gestionar y controlar tus gastos personales o familiares de forma sencilla e intuitiva.  
+Permite registrar ingresos, egresos, categorías y visualizar estadísticas generales de tu presupuesto.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características principales
 
-## React Compiler
+- 💰 **Registro de gastos e ingresos** con fecha, descripción y monto.  
+- 🗂️ **Clasificación por categorías** (alimentación, transporte, ocio, etc.).  
+- 📊 **Resumen visual** de tus finanzas mediante gráficos dinámicos.  
+- ✏️ **Edición y eliminación** de movimientos.  
+- 💾 **Persistencia de datos** (por ejemplo, con localStorage o Firebase).  
+- 📱 **Diseño responsive**, adaptable a móviles y escritorio.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React JS**  
+- 🎨 **CSS / TailwindCSS**  
+- 🔥 **Firebase** *(opcional)*  
+- 📦 **Vite** o **Create React App**
+
+---
+
+## 🛠️ Instalación y ejecución
+
+```bash
+# 1. Clona el repositorio
+git clone https://github.com/tuusuario/nombre-del-repo.git
+
+# 2. Entra en la carpeta del proyecto
+cd nombre-del-repo
+
+# 3. Instala las dependencias
+npm install
+
+# 4. Inicia el servidor de desarrollo
+npm run dev
+
+# 5. Abre el proyecto en tu navegador
+# URL por defecto:
+http://localhost:3000
+
+
