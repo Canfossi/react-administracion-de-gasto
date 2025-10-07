@@ -38,7 +38,7 @@ cd nombre-del-repo
 npm install
 
 # 4. Inicia el servidor de desarrollo
-npm start
+npm run dev
 
 # 5. Abre el proyecto en tu navegador
 # URL por defecto:
