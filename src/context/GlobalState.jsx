@@ -1,6 +1,6 @@
 import { createContext, useContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
-import TransactionForm from "../components/TransactionForm";
+import TransactionForm from "../components/transactions/TransactionForm";
 
 
 const initialState ={
@@ -30,10 +30,20 @@ export const GlobalProvider = ({ children }) => {
     })
   };
 
+
+   const deleteTransaction = (id) =>{
+    dispatch({
+      type: "DELETE_TRANSACTION",
+      payload: id
+
+    })
+  };
+
   return <Context.Provider 
     value={{
         transactions:state.transactions,
         addTransacion,
+        deleteTransaction
     
    }}>{children}</Context.Provider>;
 };
