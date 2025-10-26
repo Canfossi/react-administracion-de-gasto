@@ -3,12 +3,15 @@ import Header from "./components/header";
 import Balance from "./components/Balance";
 import TransactionForm from "./components/transactions/TransactionForm";
 import TransactionList from "./components/transactions/TransactionList";
+import IncomeExpenses from "./components/incomeExpenses";
+
 function App() {
     return (
         
     
        <GlobalProvider>
         <Header/>
+        <IncomeExpenses/>
         <Balance/>
         <TransactionForm/>
         <TransactionList/>
