@@ -11,7 +11,7 @@ Permite registrar ingresos, egresos, categorías y visualizar estadísticas gene
 - 🗂️ **Clasificación por categorías** (alimentación, transporte, ocio, etc.).  
 - 📊 **Resumen visual** de tus finanzas mediante gráficos dinámicos.  
 - ✏️ **Edición y eliminación** de movimientos.  
-- 💾 **Persistencia de datos** (por ejemplo, con localStorage).  
+- 💾 **Persistencia de datos** (por ejemplo, con localStorage o Firebase).  
 - 📱 **Diseño responsive**, adaptable a móviles y escritorio.
 
 ---
@@ -19,8 +19,9 @@ Permite registrar ingresos, egresos, categorías y visualizar estadísticas gene
 ## 🧠 Tecnologías utilizadas
 
 - ⚛️ **React JS**  
-- 🎨 **CSS**  
-- 💻 **JavaScript**
+- 🎨 **CSS / TailwindCSS**  
+- 🔥 **Firebase** *(opcional)*  
+- 📦 **Vite** o **Create React App**
 
 ---
 
